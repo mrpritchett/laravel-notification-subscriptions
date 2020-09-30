@@ -1,8 +1,8 @@
 <?php
 
-namespace LiranCo\NotificationSubscriptions\Listeners;
+namespace MRP\NotificationSubscriptions\Listeners;
 
-use LiranCo\NotificationSubscriptions\Traits\HasNotificationSubscriptions;
+use MRP\NotificationSubscriptions\Traits\HasNotificationSubscriptions;
 use Illuminate\Notifications\Events\NotificationSending;
 
 class NotificationSendingListener
