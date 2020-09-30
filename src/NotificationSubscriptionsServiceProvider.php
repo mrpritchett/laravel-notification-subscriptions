@@ -1,6 +1,6 @@
 <?php
 
-namespace LiranCo\NotificationSubscriptions;
+namespace MRP\NotificationSubscriptions;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -21,6 +21,6 @@ class NotificationSubscriptionsServiceProvider extends ServiceProvider
             __DIR__.'/../config/notification-subscriptions.php', 'notification-subscriptions'
         );
         
-    	$this->app->register(\LiranCo\NotificationSubscriptions\Providers\EventServiceProvider::class);
+    	$this->app->register(\MRP\NotificationSubscriptions\Providers\EventServiceProvider::class);
     }
 }
