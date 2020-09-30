@@ -1,8 +1,8 @@
 <?php
 
-namespace LiranCo\NotificationSubscriptions\Traits;
+namespace MRP\NotificationSubscriptions\Traits;
 
-use LiranCo\NotificationSubscriptions\Models\NotificationSubscription;
+use MRP\NotificationSubscriptions\Models\NotificationSubscription;
 
 trait HasNotificationSubscriptions
 {
