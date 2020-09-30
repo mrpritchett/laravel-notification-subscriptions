@@ -1,8 +1,8 @@
 <?php
 
-namespace MRP\NotificationSubscriptions\Listeners;
+namespace Mrpritchett\NotificationSubscriptions\Listeners;
 
-use MRP\NotificationSubscriptions\Traits\HasNotificationSubscriptions;
+use Mrpritchett\NotificationSubscriptions\Traits\HasNotificationSubscriptions;
 use Illuminate\Notifications\Events\NotificationSending;
 
 class NotificationSendingListener
