@@ -1,8 +1,8 @@
 <?php
 
-namespace MRP\NotificationSubscriptions\Traits;
+namespace Mrpritchett\NotificationSubscriptions\Traits;
 
-use MRP\NotificationSubscriptions\Models\NotificationSubscription;
+use Mrpritchett\NotificationSubscriptions\Models\NotificationSubscription;
 
 trait HasNotificationSubscriptions
 {
