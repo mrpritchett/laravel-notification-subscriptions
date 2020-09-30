@@ -1,6 +1,6 @@
 <?php 
 
-namespace MRP\NotificationSubscriptions\Models;
+namespace Mrpritchett\NotificationSubscriptions\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
