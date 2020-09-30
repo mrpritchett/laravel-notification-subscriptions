@@ -1,7 +1,7 @@
 {
-    "name": "liran-co/laravel-notification-subscriptions",
-    "description": "Notification subscription management.",
-    "homepage": "https://github.com/liran-co/laravel-notification-subscriptions",
+    "name": "mrpritchett/laravel-notifications-subscriptions",
+    "description": "Notifications subscription management.",
+    "homepage": "https://github.com/mrpritchett/laravel-notification-subscriptions",
     "keywords": [
         "laravel",
         "subscription",
@@ -12,8 +12,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Liran Cohen",
-            "email": "l@liran.co"
+            "name": "Matt Pritchett",
+            "email": "mattpritchett@hey.com"
         }
     ],
     "require": {
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LiranCo\\NotificationSubscriptions\\NotificationSubscriptionsServiceProvider"
+                "MRP\\NotificationSubscriptions\\NotificationSubscriptionsServiceProvider"
             ]
         }
     },
