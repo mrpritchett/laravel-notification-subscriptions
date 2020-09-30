@@ -1,6 +1,6 @@
 <?php 
 
-namespace LiranCo\NotificationSubscriptions\Models;
+namespace MRP\NotificationSubscriptions\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
