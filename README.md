@@ -2,14 +2,12 @@
 
 Laravel Notification Subscriptions is a package that hooks directly into Laravel's existing [notification system](https://laravel.com/docs/master/notifications) and adds functionality to manage user subscriptions to your app's notifications and suppress them automatically when they shouldn't be sent. You can subscribe and unsubscribe users to specific notification channels, create opt-in notifications, and scope your subscriptions by another model.
 
-[![Latest Stable Version](https://poser.pugx.org/liran-co/laravel-notification-subscriptions/v/stable)](https://packagist.org/packages/liran-co/laravel-notification-subscriptions) [![Total Downloads](https://poser.pugx.org/liran-co/laravel-notification-subscriptions/downloads)](https://packagist.org/packages/liran-co/laravel-notification-subscriptions) [![License](https://poser.pugx.org/liran-co/laravel-notification-subscriptions/license)](https://packagist.org/packages/liran-co/laravel-notification-subscriptions)
-
 ## Installation
 
-To get started, install the `liran-co/laravel-notification-subscriptions` package:
+To get started, install the `mrpritchett/laravel-notifications-subscriptions` package:
 
 ```bash
-composer require liran-co/laravel-notification-subscriptions
+composer require mrpritchett/laravel-notifications-subscriptions
 ```
 
 Run the migration to create the `notification_subscriptions` table:
@@ -34,7 +32,7 @@ Add the `HasNotificationSubscriptions ` trait to your `User` model:
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use LiranCo\NotificationSubscriptions\Traits\HasNotificationSubscriptions;
+use MRP\NotificationSubscriptions\Traits\HasNotificationSubscriptions;
 
 class User extends Model
 {
