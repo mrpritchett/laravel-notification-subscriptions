@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LiranCo\\NotificationSubscriptions\\": "src"
+            "Mrpritchett\\NotificationSubscriptions\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MRP\\NotificationSubscriptions\\NotificationSubscriptionsServiceProvider"
+                "Mrpritchett\\NotificationSubscriptions\\NotificationSubscriptionsServiceProvider"
             ]
         }
     },
